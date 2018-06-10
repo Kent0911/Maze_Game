@@ -3,8 +3,7 @@
 #include <iostream>
 
 #include "../Scene.h"
-#include "../AssetsManager/AssetsManager.h"
-#include "../Render/Fonts/Fonts.h"
+#include "../../AssetsManager/AssetsManager.h"
 
 // extern‚ÌŒx‚Ì”ñ•\¦
 #pragma warning (disable:4091)
@@ -12,10 +11,11 @@
 namespace kit {
 	namespace Engine {
 
-		extern class Scene;
 		extern AssetsManager		g_assetsManager;
 		extern class SceneFonts		g_sceneFonts;
 
+		class Scene;
+		
 		class SceneManager{
 		private:
 			std::shared_ptr<Scene> msptr_currentScene;

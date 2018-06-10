@@ -3,10 +3,12 @@
 #include <memory>
 
 #include "SceneManager/SceneManager.h"
-#include "../../KitBehaviour/KitBehaviour.h"
+#include "../KitBehaviour/KitBehaviour.h"
 
 namespace kit {
 	namespace Engine {
+
+		class SceneManager;
 
 		class Scene {
 		protected:
