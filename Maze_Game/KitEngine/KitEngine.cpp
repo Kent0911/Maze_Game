@@ -20,6 +20,8 @@ FrameRate::FrameRate() {
 	mui_denominator = DEFALUT_DENOMINATOR;
 }
 
+FrameRate::~FrameRate() {	}
+
 FrameRate FrameRate::operator= (const FrameRate _frameRate) {
 	this->mui_numerator = _frameRate.mui_numerator;
 	this->mui_denominator = _frameRate.mui_denominator;

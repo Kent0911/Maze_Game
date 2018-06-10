@@ -4,6 +4,7 @@
 #include <memory>
 
 #include "../Library/KitLib/include/Kitlib.h"
+#include "Window/Window.h"
 
 #pragma comment(lib "d3d11.lib")
 
