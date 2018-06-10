@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="KitEngine">
+      <UniqueIdentifier>{9b00963e-2d78-411c-af71-598ea2870a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KitEngine\Rander">
+      <UniqueIdentifier>{ace4a15b-f194-4471-80c1-38b6e9044721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KitEngine\Window">
+      <UniqueIdentifier>{1530ee73-ccfa-40b8-a4e1-5b8109cd3d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KitEngine\Scene">
+      <UniqueIdentifier>{f8204304-d1e8-4c58-8c30-1037448863bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KitEngine\Scene\SceneManager">
+      <UniqueIdentifier>{2dd12dce-af76-4a61-a231-9f0e6bf20eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KitEngine\AssetsManager">
+      <UniqueIdentifier>{b0eeea20-0037-4302-bd74-15cb55eae04c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KitEngine\KitBihaviour">
+      <UniqueIdentifier>{861a8c93-be2f-49e8-aea1-777ebce22eb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KitEngine\KitEngine.h">
+      <Filter>KitEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="KitEngine\Window\Window.h">
+      <Filter>KitEngine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="KitEngine\Scene\Scene.h">
+      <Filter>KitEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KitEngine\Scene\SceneManager\SceneManager.h">
+      <Filter>KitEngine\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KitEngine\AssetsManager\AssetsManager.h">
+      <Filter>KitEngine\AssetsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KitEngine\KitBehaviour\KitBehaviour.h">
+      <Filter>KitEngine\KitBihaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="KitEngine\Render\Render.h">
+      <Filter>KitEngine\Rander</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KitEngine\KitEngine.cpp">
+      <Filter>KitEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="KitEngine\Window\Window.cpp">
+      <Filter>KitEngine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="KitEngine\Scene\Scene.cpp">
+      <Filter>KitEngine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KitEngine\Scene\SceneManager\SceneManager.cpp">
+      <Filter>KitEngine\Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KitEngine\AssetsManager\AssetsManager.cpp">
+      <Filter>KitEngine\AssetsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KitEngine\KitBehaviour\KitBehaviour.cpp">
+      <Filter>KitEngine\KitBihaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="KitEngine\Render\Render.cpp">
+      <Filter>KitEngine\Rander</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
