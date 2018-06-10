@@ -5,6 +5,8 @@
 
 #include "../Library/KitLib/include/Kitlib.h"
 #include "Window/Window.h"
+#include "Scene/SceneManager/SceneManager.h"
+#include "Render/Render.h"
 
 #pragma comment(lib "d3d11.lib")
 
@@ -53,11 +55,12 @@ namespace kit {
 		};
 
 		class Scene;
+		extern class SceneManager;
 
 		// ÉQÅ[ÉÄÇÃèâä˙ê›íË
 		typedef struct {
-			LPSTR					mlp_str;
-			FrameRate				mc_flameRate;
+			LPCWSTR					mlp_str;
+			FrameRate				mc_frameRate;
 			kit::vec2				mv_windowSize;
 			std::shared_ptr<Scene>	msptr_startScene;
 		}CONFIG;
@@ -75,7 +78,7 @@ namespace kit {
 		private:
 			CONFIG							mc_config;
 			std::unique_ptr<CWindow>		muptr_window;
-			std::unique_ptr<SceneManager>	mutpr_sceneManager;
+			std::unique_ptr<SceneManager>	muptr_sceneManager;
 
 			HRESULT InitDevice();
 			HRESULT HCreateWindow( HINSTANCE _hInstance, int _nCmdShow );

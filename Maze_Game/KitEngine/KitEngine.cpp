@@ -94,7 +94,7 @@ HRESULT KitEngine::InitDevice() {
 
 	// Create buffer
 	D3D11_BUFFER_DESC bufferdesc;
-	bufferdesc.ByteWidth = sizeof(kit::Engine::Vertex) * 3;
+	bufferdesc.ByteWidth = sizeof(kit::Engine::VERTEX) * 3;
 	bufferdesc.Usage = D3D11_USAGE_DEFAULT;
 	bufferdesc.BindFlags = D3D11_BIND_VERTEX_BUFFER;
 	bufferdesc.CPUAccessFlags = 0;
